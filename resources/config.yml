@@ -1,0 +1,5 @@
+# A Simple Config for a Simple Plugin.
+
+#The Join and Leave Messages will have the player name at the start of it. 
+Join-Message: Joined the game!
+Leave-Message: Left the game!
