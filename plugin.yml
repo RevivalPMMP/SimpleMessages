@@ -1,7 +1,7 @@
 name: SimpleMessages
 main: RevivalPMMP\SimpleMEssages\SimpleMessages
 version: 1.0.0
-api: 3.0.0-ALPHA1
+api: 3.0.0-ALPHA2
 
 authors: ["RevivalPMMP"]
 description: A Super Simple Messaging Plugin for Pocketmine
