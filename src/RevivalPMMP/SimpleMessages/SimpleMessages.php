@@ -10,7 +10,7 @@ use pocketmine\Server;
 use pocketmine\event\Listener;
 
 
-class SimpleMessages extends PluginBase{
+class SimpleMessages extends PluginBase implements Listener{
     public function onEnable(){
         $this->getLogger()->info("Loading SimpleMessages!");
         $this->getServer()->getPluginManager()->registerEvents($this, $this);
@@ -33,5 +33,6 @@ class SimpleMessages extends PluginBase{
         $name = $player->getDisplayName();
         Server::getInstance()->broadcastMessage("".$name. $this->getConfig()->get("Leave-Message"));
         }
+        
 }
 
